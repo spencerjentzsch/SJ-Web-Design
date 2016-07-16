@@ -1697,14 +1697,14 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: #f1c40f;
 		text-decoration: none;
 	}
 
-		a:hover {
-			border-bottom-color: transparent;
-			color: #f1c40f !important;
-		}
+	
+		
+		
+		
 
 		a.special:not(.button) {
 			text-decoration: none;
@@ -2227,7 +2227,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding-left: 1em;
 	}
 
@@ -2376,7 +2376,7 @@
 			ul.contact li {
 				text-decoration: none;
 				margin: 2.5em 0 0 0;
-				padding: 0 0 0 3.25em;
+				padding: 0 0 0 1.9em;
 				position: relative;
 			}
 
@@ -3054,7 +3054,7 @@
 			#banner .logo .icon {
 				border-radius: 100%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
-				cursor: default;
+				cursor: auto;
 				display: inline-block;
 				font-size: 2em;
 				height: 2.25em;
@@ -3718,3 +3718,23 @@
 	.logo a {
 		border-bottom: none;
 	}
+
+
+
+	#footer-logo {
+		font-size: 2em;
+		
+		
+	}
+
+	#footer-logo a {
+		display: inline;
+		border-bottom: none;
+	}
+
+	a:hover {
+		color: #e67e22;
+		text-decoration: none;
+		border-bottom: none;
+	}
+	
