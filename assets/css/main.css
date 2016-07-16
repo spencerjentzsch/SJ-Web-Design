@@ -1703,7 +1703,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: #f1c40f !important;
 		}
 
 		a.special:not(.button) {
@@ -3707,10 +3707,14 @@
 
 	.steps {
 		color: #e74c3c;
-		size: 3em;
+		font-size: 1.5em;
 		    font-family: Raleway, Helvetica, sans-serif;
     font-weight: 700;
     letter-spacing: 0.1em;
     margin: 0 0 1em 0;
     text-transform: uppercase;
+	}
+
+	.logo a {
+		border-bottom: none;
 	}
